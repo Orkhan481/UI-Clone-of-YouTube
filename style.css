@@ -4,37 +4,40 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 a{
     text-decoration: none;
     color:#000;
 }
+
 header img{
     width:24px;
     height: 24px;
 }
+
 .logo{
     width:90px;
     height: 20px;
     margin:18px 14px 18px 16px;
 }
-
+/* CUSTOM SCROLBAR */
 ::-webkit-scrollbar {
     width: 10px;
     height:10px;
   }
   
-
 ::-webkit-scrollbar {
     box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
   }
-   
 
 ::-webkit-scrollbar-thumb {
     background:#ff0000; 
     border-radius: 10px;
   }
+
 /* HEADER START */
+
 header{
     height:56px;
     padding:0px 20px;
@@ -56,6 +59,7 @@ header form{
     display: flex;
     width:50%;
 }
+
 .search-bar{
     width:80%;
     height:40px;
@@ -126,7 +130,9 @@ header form{
 }
 
 /* HEADER FINISH */
+
 /* ASIDE START */
+
 main{
     width:100%;
     display: flex;
@@ -141,6 +147,7 @@ aside{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 aside .shortcuts{
     width:100%;
     display: flex;
@@ -148,12 +155,15 @@ aside .shortcuts{
     justify-content: center;
     
 }
+
 aside a img{
     width:24px;
 }
+
 .grey{
     background-color:#ccc ;
 }
+
 aside .sidebar-category{
     width: 100%;
     display: flex;
@@ -165,24 +175,29 @@ aside .sidebar-category{
 aside .shortcuts div:hover{
     background:#f8f8f8;
 }
+
 aside .sidebar-category a img{
     margin: 10px;
     margin-left:0px;
 }
+
 aside span{
     font-size:14px;
     padding:5px;
 }
+
 hr{
     width:220px ;
     height:2px;
 }
+
 aside .title{
     font-size:18px;
     opacity: .5;
     margin:10px 0px;
     padding-left:16px;
 }
+
 aside .channel{
     display: flex;
     align-items: center;
@@ -194,20 +209,26 @@ aside .subscribes-chanell-logo{
     border-radius:50%;
     margin:8px 6px 8px 0px;
 }
+
 aside .author{
     margin:5px 0px;
     padding-left:16px;
 }
+
 /* ASIDE FINISH */
+
 /* CATEGORIES START */
+
 .middle{
     width:82%;
     display: flex;
     flex-direction: column;
 }
+
 .middle .categories img{
     width:16px;
 }
+
 .middle .categories{
     width:100%;
     height:70px;
@@ -216,6 +237,7 @@ aside .author{
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
 }
+
 .middle .categories .category{
     padding:8px 12px;
     margin:8px;
@@ -225,9 +247,11 @@ aside .author{
     cursor: pointer;
     transition:background .8s;
 }
+
 .middle .categories .category:hover{
     background-color:rgba(0,0,0,.1);
 }
+
 .middle .categories .black{
     padding:8px 12px;
     border-radius:25px;
@@ -235,8 +259,11 @@ aside .author{
     background-color:#000;
     color:#fff;
 }
+
 /* CATEGORIES FINISH */
+
 /* VIDEO SECTION START */
+
 .video-section{
 width:100%;
 flex-wrap: wrap;
@@ -246,18 +273,22 @@ align-items: center;
 margin-top:10px;
 padding:0 5px;
 }
+
 .video-container{
     width:290px;
     margin:5px 10px;
 }
+
 .thumbnail{
     width:290px;
     height:163px;
     object-fit: cover;
 }
+
 .thumbnail-area{
     position: relative;
 }
+
 .thumbnail-area::after{
     content:attr(data-duration);
     position: absolute;
@@ -268,6 +299,7 @@ padding:0 5px;
     border-radius:2px;
     padding:2px 3px;
 }
+
 .video-bottom{
     width: 100%;
     height: 95px;
@@ -275,9 +307,11 @@ padding:0 5px;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .channel-logo{
 margin:8px 10px 0 10px;
 }
+
 .channel-logo img{
     border-radius:50%;
 }
@@ -287,11 +321,13 @@ width:100%;
 display: flex;
 flex-direction: column;
 }
+
 .video-title{
     font-size:18px;
     font-weight: bold;
     padding:10px 0;
 }
+
 .meta-data{
     padding:5px 0;
 }
