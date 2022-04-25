@@ -1,0 +1,10 @@
+aside{
+    display: none;
+} 
+.middle{
+    width:100%;
+    }
+.thumbnail{
+    width:370px;
+    height:250px;
+}

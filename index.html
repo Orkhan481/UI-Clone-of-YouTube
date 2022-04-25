@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- For Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./mobile.css">
+    <!-- For Tablet -->
+    <link rel="stylesheet" media="(max-width:1100px)" href="./Tablet.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/youtube-favicon.png" type="image/x-icon">
+    <title>Youtube UI Clone</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-and-burger">
+            <a href="#"><img src="./img/burger.svg"></a>
+            <a href="#"><img src="./img/logo.svg" class="logo"></a>
+        </div>
+            <form action="#">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search" class="search-input">
+                    <button class="magnifier-area"><a href="#"><img src="./img/magnifier.svg"></a></button>
+                </div>
+                <div class="microphone-area"><a href="#"><img src="./img/microphone.svg"></a></div>
+            </form>
+        <div class="right-icons">
+            <a href="#"><img src="./img/video-plus.svg"></a>
+            <a href="#"><img src="./img/menu-bar.svg"></a>
+            <a href="#"><img src="./img/bell.svg"></a>
+            <a href="#"><img src="https://source.unsplash.com/random" class="account"></a>
+        </div>
+    </header>
+<main>
+    <!-- ASIDE START -->
+    <aside>
+        <div class="shortcuts">
+            <div class="sidebar-category grey ">
+                <a href="#"><img src="./img/home.svg"></a>
+                <span>Ev</span>
+            </div>
+
+            <div class="sidebar-category">
+                <a href="#"><img src="./img/discovery.svg"></a>
+                <span>Kəşf Edin</span>
+            </div>
+
+            <div class="sidebar-category">
+                <a href="#"><img src="./img/shorts.svg"></a>
+                <span>Shorts</span>
+            </div>
+
+            <div class="sidebar-category">
+                <a href="#"><img src="./img/subscribes.svg"></a>
+                <span>Abunəliklər</span>
+            </div>
+            <hr id="hidden">
+            <div class="sidebar-category">
+                <a href="#"><img src="./img/library.svg"></a>
+                <span>Kitabxana</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/timer.svg"></a>
+                <span>Tarixçə</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/subscribes.svg"></a>
+                <span>Videolarınız</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/watchlater.svg"></a>
+                <span>Sonra İzləyin</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/likedvideos.svg"></a>
+                <span>Bəyənilən Videolar</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/seemore.svg"></a>
+                <span>Daha çox göstərin</span>
+            </div>
+            <hr id="hidden">
+            <h2 class="title" id="hidden">Abunəliklər</h2>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 1</span>
+            </div>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 2</span>
+            </div>
+            <div class="channel" id="hidden"> 
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 3</span>
+            </div>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 4</span>
+            </div>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 5</span>
+            </div>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 6</span>
+            </div>
+            <div class="channel" id="hidden">
+                <a href="#"><img src="https://source.unsplash.com/random/" class="subscribes-chanell-logo"></a>
+                <span>Channel Name 7</span>
+            </div>
+            <div class="sidebar-category" id="hidden">
+                <a href="#"><img src="./img/seemore.svg"></a>
+                <span>Digər 10 videonu göstər...</span>
+            </div>
+        <hr id="hidden">
+        <h2 class="title" id="hidden">Youtubdan daha çox</h2>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/games.svg"></a>
+            <span>Oyunlar</span>
+        </div>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/watchlater.svg"></a>
+            <span>Canlı</span>
+        </div>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/likedvideos.svg"></a>
+            <span>İdman</span>
+        </div>
+        <hr id="hidden">
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/games.svg"></a>
+            <span>Ayarlar</span>
+        </div>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/historyOfNews.svg"></a>
+            <span>Xəbər tarixçəsi</span>
+        </div>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/help.svg"></a>
+            <span>Yardım</span>
+        </div>
+        <div class="sidebar-category" id="hidden">
+            <a href="#"><img src="./img/sendcommits.svg"></a>
+            <span>Rəy göndərin</span>
+        </div>
+        <hr id="hidden">
+        <span class="author" id="hidden">© By Orkhan</span>
+    </div>
+    </aside>
+    <!-- ASIDE FINISH -->
+    <!-- CATEGORIES START -->
+    <section class="middle">
+        <div class="categories">
+            <button href="#" class="black">Hamısı</button>
+            <button href="#" class="category">Sitkomlar</button>
+            <button href="#" class="category">Riyaziyyat</button>
+            <button href="#" class="category">Futbol</button>
+            <button href="#" class="category">Rep</button>
+            <button href="#" class="category">Vizual</button>
+            <button href="#" class="category">Yemək</button>
+            <button href="#" class="category">Oyunlar</button>
+            <button href="#" class="category">Musiqi</button>
+            <button href="#" class="category">Canlı</button>
+            <button href="#" class="category">Macəra</button>
+            <button href="#" class="category">İzlədikləriniz</button>
+            <button href="#" class="category">Futbol</button>
+            <button href="#" class="category">Rep</button>
+            <button href="#" class="category">Vizual </button>
+            <button href="#" class="category">Riyaziyyat</button>
+            <button href="#" class="category">Canlı</button>
+            <button href="#" class="category">Futbol</button>
+            <a href="#"><img src="./img/rightline.svg"></a>
+        </div>
+         <!-- CATEGORIES FINISH -->
+        <section class="video-section">
+            <!-- Video-1 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-2 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-3 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-4 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-5 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-6 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Video-7 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+           <!-- Video-8 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Video-9 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+           <!-- Video-10 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Video-11 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+           <!-- Video-12 -->
+            <article class="video-container">
+                <a href="#" class="thumbnail-area" data-duration="18:24"><img src="https://source.unsplash.com/random/"  class="thumbnail"></a>
+                <div class="video-bottom">
+                    <a href="#" class="channel-logo"><img src="https://source.unsplash.com/random/36x36"></a>
+                    <div class="video-data">
+                        <a href="#" class="video-title">Video Başlığı</a>
+                        <a href="#">Kanal Adı</a>
+                        <div class="meta-data">
+                            <span>68K baxış</span>
+                            •
+                            <span>3 həftə əvvəl</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>
+    
+</body>
+</html>

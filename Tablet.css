@@ -1,0 +1,44 @@
+ aside{
+    width:90px;
+    overflow-y: hidden;
+} 
+aside .sidebar-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} 
+.search-input{
+    display: none;
+}
+.search-bar{
+width:48px;
+border:0;
+}
+.magnifier-area{
+    width:100%;
+    background:none;
+    border:0;
+    margin:0px 2px;
+    padding:0px;
+}
+.microphone-area{
+    margin:0px 2px;
+}
+form{
+    width:60%;
+    display: flex;
+    justify-content: center;
+}
+
+aside .sidebar-category{
+    padding-left:0;
+}
+
+#hidden{
+    display: none;
+}
+.thumbnail{
+    width:300px;
+    height:200px;
+}
