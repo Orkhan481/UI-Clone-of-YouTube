@@ -40,7 +40,7 @@ header img{
 
 header{
     height:56px;
-    padding:0px 20px;
+    padding:0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +71,7 @@ header form{
 .search-input{
     width:95%;
     height:26px;
-    padding:1px 0px;
+    padding:1px 0;
     font-size:16px;
     outline:none;
     border:0;
@@ -101,7 +101,7 @@ header form{
     display: flex;
     justify-content:center ;
     align-items: center;
-    margin:0px 8px;
+    margin:0 8px;
 }
 
 .right-icons img{
@@ -194,7 +194,7 @@ hr{
 aside .title{
     font-size:18px;
     opacity: .5;
-    margin:10px 0px;
+    margin:10px 0;
     padding-left:16px;
 }
 
@@ -207,11 +207,11 @@ aside .subscribes-chanell-logo{
     width:24px;
     height:24px;
     border-radius:50%;
-    margin:8px 6px 8px 0px;
+    margin:8px 6px 8px 0;
 }
 
 aside .author{
-    margin:5px 0px;
+    margin:5px 0;
     padding-left:16px;
 }
 
