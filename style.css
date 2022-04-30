@@ -234,8 +234,12 @@ aside .author{
     height:70px;
     display: flex;
     align-items: center;
+    background-color: #fff;
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
+    position: fixed;
+    z-index: 2;
+
 }
 
 .middle .categories .category{
@@ -270,8 +274,10 @@ flex-wrap: wrap;
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin-top:10px;
+margin-top:75px;
+/* CATEGORIES'I SABİTLƏDİKDƏN SONRA İÇ-İÇƏ GİRİR, ONA GÖRƏ MARGİN VERMƏLİ OLDUM */
 padding:0 5px;
+z-index: 1;
 }
 
 .video-container{
